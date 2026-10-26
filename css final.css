@@ -1,0 +1,194 @@
+```css
+/* ================================
+   MINECRAFT WEBSITE - STYLE.CSS
+   ================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Minecraft-style background */
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)),
+        url("minecraft-background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    text-shadow:
+        4px 4px 0 #000000,
+        6px 6px 0 rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 35px;
+}
+
+/* Section headings */
+h2 {
+    margin-top: 55px;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+    color: #7cff4f;
+
+    text-transform: uppercase;
+
+    text-shadow:
+        3px 3px 0 #000000;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 12px;
+
+    font-size: 24px;
+    color: #ffffff;
+
+    text-shadow:
+        3px 3px 0 #000000;
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 25px;
+
+    color: #ffd83d;
+
+    text-shadow:
+        3px 3px 0 #000000;
+}
+
+/* Download button */
+a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 16px 30px;
+
+    color: white;
+    background: #3f9c35;
+
+    border: 4px solid #1f5d1b;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 6px 0 #183f15,
+        0 10px 15px rgba(0, 0, 0, 0.5);
+
+    text-transform: uppercase;
+
+    transition: 0.15s;
+}
+
+/* Button hover */
+button:hover {
+    background: #55bd46;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 9px 0 #183f15,
+        0 14px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Button click */
+button:active {
+    transform: translateY(5px);
+
+    box-shadow:
+        0 2px 0 #183f15,
+        0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+
+    body {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    button {
+        width: 90%;
+        max-width: 350px;
+        font-size: 16px;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+}
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("https://images.unsplash.com/photo-1627856013091-fed6a1c9135a?auto=format&fit=crop&w=2400&q=90");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
